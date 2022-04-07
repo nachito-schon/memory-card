@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.58b5d8f9.css",
+    "main.js": "/memory-card/static/js/main.ac42997a.js",
+    "static/media/background.jpg": "/memory-card/static/media/background.e976fd541ad37b8dcd62.jpg",
+    "static/media/mystic-mountain.png": "/memory-card/static/media/mystic-mountain.62314dc53eb7632d5870.png",
+    "static/media/southern-pinwheel.png": "/memory-card/static/media/southern-pinwheel.fa34a662499af49593ac.png",
+    "static/media/pillars-of-creation.png": "/memory-card/static/media/pillars-of-creation.faf0e5560749d94942e7.png",
+    "static/media/ring-nebula.png": "/memory-card/static/media/ring-nebula.2f6fae78b7cbcb4ed8ef.png",
+    "static/media/jewel-bug-nebula.png": "/memory-card/static/media/jewel-bug-nebula.b63985b67d24e60db436.png",
+    "static/media/the-rose.png": "/memory-card/static/media/the-rose.c781e9609fbf6e1cfe06.png",
+    "static/media/rubins-galaxy.png": "/memory-card/static/media/rubins-galaxy.7bcc153964ef21ecb380.png",
+    "static/media/comet-ison.png": "/memory-card/static/media/comet-ison.589fb5d8339617d996cf.png",
+    "static/media/jupiter.png": "/memory-card/static/media/jupiter.192efb9c9a7f906b0be3.png",
+    "static/media/saturn.png": "/memory-card/static/media/saturn.2fce122be9b45b266b2b.png",
+    "static/media/mars.png": "/memory-card/static/media/mars.ecab3f65dadec3977008.png",
+    "static/media/uranus.png": "/memory-card/static/media/uranus.69070b7c0522145edfe1.png",
+    "index.html": "/memory-card/index.html",
+    "main.58b5d8f9.css.map": "/memory-card/static/css/main.58b5d8f9.css.map",
+    "main.ac42997a.js.map": "/memory-card/static/js/main.ac42997a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58b5d8f9.css",
+    "static/js/main.ac42997a.js"
+  ]
+}
