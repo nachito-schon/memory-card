@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/memory-card/static/css/main.58b5d8f9.css",
+    "main.css": "/memory-card/static/css/main.d3aca9f4.css",
     "main.js": "/memory-card/static/js/main.ac42997a.js",
     "static/media/background.jpg": "/memory-card/static/media/background.e976fd541ad37b8dcd62.jpg",
     "static/media/mystic-mountain.png": "/memory-card/static/media/mystic-mountain.62314dc53eb7632d5870.png",
@@ -16,11 +16,11 @@
     "static/media/mars.png": "/memory-card/static/media/mars.ecab3f65dadec3977008.png",
     "static/media/uranus.png": "/memory-card/static/media/uranus.69070b7c0522145edfe1.png",
     "index.html": "/memory-card/index.html",
-    "main.58b5d8f9.css.map": "/memory-card/static/css/main.58b5d8f9.css.map",
+    "main.d3aca9f4.css.map": "/memory-card/static/css/main.d3aca9f4.css.map",
     "main.ac42997a.js.map": "/memory-card/static/js/main.ac42997a.js.map"
   },
   "entrypoints": [
-    "static/css/main.58b5d8f9.css",
+    "static/css/main.d3aca9f4.css",
     "static/js/main.ac42997a.js"
   ]
 }
