@@ -1,19 +1,8 @@
-import ison from './images/comet-ison.png';
-import jewel from './images/jewel-bug-nebula.png';
-import jupiter from './images/jupiter.png';
-import mars from './images/mars.png';
-import mountain from './images/mystic-mountain.png';
-import pillars from './images/pillars-of-creation.png';
-import ring from './images/ring-nebula.png';
-import rubin from './images/rubins-galaxy.png';
-import saturn from './images/saturn.png';
-import pinwheel from './images/southern-pinwheel.png';
-import rose from './images/the-rose.png';
-import uranus from './images/uranus.png';
 import React, { useState } from "react";
 import Instructions from "./components/Instructions";
 import Scoreboard from "./components/Scoreboard";
 import Gameboard from "./components/Gameboard";
+import { imagesURLs } from "./imagesURLs";
 
 const shuffle = function(array) {
   const shuffledArray = [...array];
@@ -31,21 +20,28 @@ const shuffle = function(array) {
 
 function App() {
   const [pictures, setPictures] = useState([
-    {name: 'Comet ISON', url: ison},
-    {name: 'Jewel Bug nebula', url: jewel},
-    {name: 'Jupiter', url:jupiter},
-    {name: 'Mars', url:mars},
-    {name: 'Mystic Mountain', url: mountain},
-    {name: 'Pillars of Creation', url: pillars},
-    {name: 'Ring nebula', url: ring},
-    {name: "Rubin's nebula", url: rubin},
-    {name: 'Saturn', url: saturn},
-    {name: 'Southern Pinwheel', url: pinwheel},
-    {name: 'The Rose', url: rose},
-    {name: 'Uranus', url: uranus}
+    {name: 'Comet ISON', url: imagesURLs.ison},
+    {name: 'Jewel Bug nebula', url: imagesURLs.jewel},
+    {name: 'Jupiter', url:imagesURLs.jupiter},
+    {name: 'Mars', url:imagesURLs.mars},
+    {name: 'Mystic Mountain', url: imagesURLs.mountain},
+    {name: 'Pillars of Creation', url: imagesURLs.pillars},
+    {name: 'Ring nebula', url: imagesURLs.ring},
+    {name: "Rubin's nebula", url: imagesURLs.rubin},
+    {name: 'Saturn', url: imagesURLs.saturn},
+    {name: 'Southern Pinwheel', url: imagesURLs.pinwheel},
+    {name: 'The Rose', url: imagesURLs.rose},
+    {name: 'Uranus', url: imagesURLs.uranus}
   ]);
-
+  const [areInstructionsHidden, setAreInstructionsHidden] = useState(true);
   const [memory, setMemory] = useState([]);
+  const showInstructions = function() {
+    setAreInstructionsHidden(false);
+  }
+
+  const hideInstructions = function() {
+    setAreInstructionsHidden(true);
+  }
 
   const handleClick = function(event) {
     const card = event.currentTarget.textContent;
@@ -62,9 +58,10 @@ function App() {
   return (
     <div className="App">
       <h1>MEMORY CARD GAME</h1>
-      <Instructions />
+      <button className="showInstructionsButton" onClick={showInstructions}>How to play</button>
       <Scoreboard score={memory.length} />
       <Gameboard pictures={pictures} handleClick={handleClick} />
+      <Instructions isHidden={areInstructionsHidden} hideInstructions={hideInstructions} />
     </div>
   );
 }
