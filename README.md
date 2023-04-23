@@ -7,4 +7,4 @@ The trick is that when you click on an image, all the cards **get shuffled**.
 
 **[TRY IT OUT HERE!](https://nachito-schon.github.io/memory-card/)**
 
-![memory-cards-preview-800w](https://user-images.githubusercontent.com/85847402/218543260-08f66a1b-547c-47f7-9214-3c8cb404ffee.png)
+![memory-cards](https://user-images.githubusercontent.com/85847402/233861047-01002565-129d-4ef5-8419-dacde9ca89d2.jpg)
